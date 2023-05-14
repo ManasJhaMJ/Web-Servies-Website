@@ -1,0 +1,364 @@
+body {
+    font-family: "Montserrat";   
+}
+#title {
+    background-color: #040b29;
+    color: aliceblue;
+    padding-top: 0%;
+    padding-bottom: 0%;
+}
+
+#features {
+    background-color: #040b29;
+    color: aliceblue;
+    padding: 0 30%;
+    padding-bottom: 1%;
+}
+
+#testimonials{
+    background-color: #040b29;
+    color: aliceblue;
+    text-align: center;
+    font-weight: bold;
+    font-size: 3rem ;    
+    padding: 6% 15%;
+}
+
+#cta{
+    background-color: #040b29;
+    color: aliceblue;
+    text-align: center;
+    font-weight: bold;
+    font-size: 3rem ;    
+    padding: 6% 15%;    
+}
+
+#footer{
+    background-color: #040b29;
+    color: aliceblue;
+    text-align: center;
+    font-weight: bold;
+    font-size: 3rem ;    
+    padding: 6% 15%;  
+}
+
+.container{
+    padding-top: 3%;
+    padding-right: 5%;
+    padding-bottom: 3%;
+    padding-left: 5%;
+}
+
+h1 {
+
+    font-family:"Archivo Black";
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 1.5;
+    padding-top: 3%;
+}
+
+img.titleimg{
+    max-width: 100%;
+    height: auto;
+    padding-top: 4%;
+}
+
+span.title1{
+    font-size: 55px;
+}
+
+span.title11{
+    font-size: 55px;
+}
+
+/* span.title1:before{ 
+    content: '';
+    animation: animate1 infinite 8s;
+    -webkit-text-fill-color: aqua;
+}*/
+
+a.nav-link{
+    font-size: 20px;
+}
+
+a.linktree{
+    font-size: 22px;
+    font-weight: bold;
+    color: aqua;
+}
+
+/* @keyframes animate1{
+    0%{
+        content: 'Create.';
+    }
+    20%{
+        content: 'Design.';
+    }
+    40%{
+        content: 'Upgrade.';
+    }
+    60%{
+        content: 'Improve.';
+    }
+    100%{
+        content: 'Build.';
+    }
+} */
+
+/* navigation bar */
+
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.download-button{
+    margin: 2% 2% 5% 0;
+}
+
+h2.title-2{
+    text-align: center;
+    padding: 2% 2%;
+}
+
+span.title2:before{
+    content: '';
+    animation: animate2 infinite 8s;
+    -webkit-text-fill-color: aqua;
+}
+
+@keyframes animate2{
+    0%{
+        content: 'Create.';
+    }
+    20%{
+        content: 'Design.';
+    }
+    40%{
+        content: 'Build.';
+    }
+    60%{
+        content: 'Upgrade.';
+    }
+    100%{
+        content: 'Improve.';
+    }
+    
+}
+
+h3.services{
+    padding: 5% 5%;
+}
+
+div.services{
+    background-color: #1b90bb;
+    border-radius: 50px 50px;
+    outline-style: solid;
+    outline-color: aqua;
+    padding-top: 1%;
+    padding-right: 3%;
+    padding-bottom: 1%;
+    padding-left: 3%;
+}
+
+.child {
+    align-self: flex-end;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    transform-origin: bottom;
+}
+.bounce:hover {
+    animation-name: bounce;
+    animation-timing-function: ease;
+}
+@keyframes bounce {
+  0%   { transform: translateY(0); }
+  50%  { transform: translateY(-50px); }
+  100% { transform: translateY(0); }
+}
+
+h2.title3{
+    font-family: "Montserrat";
+    padding-top: 1%;
+    padding-left: 1%;
+    padding-bottom: 5%;
+    padding-right: 1%;
+}
+
+.testimonial-img{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+/* .typewriter h1 { 
+    padding-top: 23%;
+    overflow: hidden; *//* Ensures the content is not revealed until the animation */
+/*    border-right: .13em solid orange; /* The typwriter cursor */
+/*    white-space: nowrap; /* Keeps the content on a single line */
+/*    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+/*    letter-spacing: .12em; /* Adjust as needed */
+/*    animation: 
+      typing 3.5s steps(40, end),
+      blink-caret .75s step-end infinite;
+  }
+  
+  /* The typing effect */
+/*  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+/*  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
+  }
+*/
+  .carousel-item{
+    padding: 6% 15%;
+  }
+   
+
+div.card-body{
+    background-color: #1b90bb;
+    border-radius: 50px 50px;
+}
+
+div.card1{
+    margin: 3% 3% ;
+    border-radius: 0px 96px;
+    outline-style: solid;
+    outline-color: aqua;
+    mix-blend-mode: lighten;
+}
+
+div.card2{
+    margin: 3% 3% ;
+    border-top-left-radius : 96px;
+    border-bottom-right-radius: 96px;
+    outline-style: solid;
+    outline-color: aqua;
+}
+
+div.card3{
+    margin: 3% 3% ;
+    border-top-left-radius: 96px;
+    border-bottom-left-radius: 96px;
+    outline-style: solid;
+    outline-color: aqua;
+}
+
+div.card4{
+    margin: 3% 3% ;
+    border-top-right-radius: 96px;
+    border-bottom-right-radius: 96px;
+    outline-style: solid;
+    outline-color: aqua;
+}
+
+div.card5{
+    margin: 3% 3% ;
+    border-top-left-radius: 96px;
+    border-bottom-right-radius: 96px;
+    outline-style: solid;
+    outline-color: aqua;
+}
+
+div.card6{
+    margin: 3% 3% ;
+    border-top-right-radius : 96px;
+    border-bottom-left-radius: 96px;
+    outline-style: solid;
+    outline-color: aqua;
+}
+
+.box{
+    font-size: 3rem;
+    font-weight: 900;
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    font-family:"Archivo Black";
+    line-height: 1.5;
+    -webkit-text-fill-color: aqua;
+}
+
+.b1{
+    animation: ani1 15s infinite;
+}
+.b2{
+    animation: ani2 15s infinite;
+}
+.b3{
+    animation: ani3 15s infinite;
+}
+.b4{
+    animation: ani4 15s infinite;
+}
+.b5{
+    animation: ani5 15s infinite;
+}
+
+@keyframes ani1{
+    0%{
+        opacity: 0;
+    }
+    10%{
+        opacity: 1;
+    }
+    20%{
+        opacity: 0;
+    }
+}
+@keyframes ani2{
+    20%{
+        opacity: 0;
+    }
+    30%{
+        opacity: 1;
+    }
+    40%{
+        opacity: 0;
+    }
+}
+@keyframes ani3{
+    40%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    60%{
+        opacity: 0;
+    }
+}
+@keyframes ani4{
+    60%{
+        opacity: 0;
+    }
+    70%{
+        opacity: 1;
+    }
+    80%{
+        opacity: 0;
+    }
+}
+@keyframes ani5{
+    80%{
+        opacity: 0;
+    }
+    90%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+.typewriter{
+    padding-top: 8%;
+    text-align: left;
+}
